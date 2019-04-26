@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>patient</servlet-name>
-        <servlet-class>school.project.securitybracelet.servlets.PatientController</servlet-class>
+        <servlet-class>school.project.securitybracelet.web.servlets.PatientController</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -16,7 +16,7 @@
 
     <servlet>
         <servlet-name>login</servlet-name>
-        <servlet-class>school.project.securitybracelet.servlets.LoginController</servlet-class>
+        <servlet-class>school.project.securitybracelet.web.servlets.LoginController</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -26,7 +26,7 @@
 
     <servlet>
         <servlet-name>signup</servlet-name>
-        <servlet-class>school.project.securitybracelet.servlets.SignUpController</servlet-class>
+        <servlet-class>school.project.securitybracelet.web.servlets.SignUpController</servlet-class>
     </servlet>
 
     <servlet-mapping>

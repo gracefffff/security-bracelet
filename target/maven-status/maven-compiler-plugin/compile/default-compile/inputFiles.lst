@@ -1,1 +1,10 @@
-/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/servlets/PatientServlet.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/core/model/Patient.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/servlets/SignUpController.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/servlets/LoginController.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/config/StartUpConfig.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/core/repository/IPatientRepository.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/core/model/User.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/servlets/PatientController.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/core/repository/IUserRepository.java
+/Users/hey_gleb/Documents/Projects/securitybracelet/src/main/java/school/project/securitybracelet/core/repository/PatientRepository.java

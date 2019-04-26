@@ -1,4 +1,4 @@
-<%@ page import="com.company.securityBracelet.core.model.Patient" %><%--
+<%@ page import="school.project.securitybracelet.core.model.Patient" %><%--
   Created by IntelliJ IDEA.
   User: hey_gleb
   Date: 07/03/2019
