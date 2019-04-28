@@ -14,18 +14,8 @@ public interface IPatientRepository {
     /**
      * Function to create new Patient
      *
-     * @param firstName             - patient first name
-     * @param middleName            - patient middle name
-     * @param lastName              - patient last name
-     * @param age                   - patient age
-     * @param address               - patient address
-     * @param contactNumber         - patient contact number
-     * @param diseaseDescription    - patient disease description
-     * @param firstAidDescription   - patient first aid description and advice
-     * @param additionalInformation - patient additional information
      */
-    void createPatient(String id, String firstName, String middleName, String lastName, int age, String address, String contactNumber,
-                       String diseaseDescription, String firstAidDescription, String additionalInformation);
+    void createPatient(String id,Patient patient);
 
     /**
      * Function to get patient

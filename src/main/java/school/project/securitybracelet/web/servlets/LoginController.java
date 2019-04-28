@@ -22,7 +22,24 @@ public class LoginController extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         IUserRepository userRepository = UserRepository.getInstance();
 
+        String email = request.getParameter("email");
+        String password = request.getParameter("password");
 
+        if (userRepository.getUserByEmail(email) == null) {
+            response.setStatus(HttpServletResponse.SC_NOT_FOUND);
+            RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/login.jsp");
+            requestDispatcher.forward(request, response);
+        }
+
+        if (userRepository.login(email, password) == null) {
+//            SmsSender smsSender = new SmsSender();
+//            smsSender.sendSMS();
+
+            RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/createPatient.jsp");
+            requestDispatcher.forward(request, response);
+        }
+
+        response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/login.jsp");
         requestDispatcher.forward(request, response);
     }

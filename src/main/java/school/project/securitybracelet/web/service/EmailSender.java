@@ -1,11 +1,10 @@
 package school.project.securitybracelet.web.service;
 
-import javax.mail.Message;
-import javax.mail.MessagingException;
-import javax.mail.Session;
-import javax.mail.Transport;
+import javax.mail.*;
 import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
 import java.util.Properties;
 
 public class EmailSender {
@@ -17,24 +16,37 @@ public class EmailSender {
 
     }
 
-    public void sendEmail() {
-        Properties properties = System.getProperties();
-        properties.setProperty("mail.smtp.host", host);
-//        Session session = Session.getDefaultInstance(properties);
+    public void sendEmail(final String username, final String password) throws MessagingException {
+        Properties prop = new Properties();
+        prop.put("mail.smtp.auth", true);
+        prop.put("mail.smtp.starttls.enable", "true");
+        prop.put("mail.smtp.host", "smtp.mailtrap.io");
+        prop.put("mail.smtp.port", "25");
+        prop.put("mail.smtp.ssl.trust", "smtp.mailtrap.io");
 
-        try {
-            MimeMessage message = new MimeMessage((Session) null);
-            message.setFrom(new InternetAddress(from));
-            message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
-            message.setSubject("Ping");
-            message.setText("Hello, this is example of sending email  ");
+        Session session = Session.getInstance(prop, new Authenticator() {
+            @Override
+            protected PasswordAuthentication getPasswordAuthentication() {
+                return new PasswordAuthentication(username, password);
+            }
+        });
 
-            // Send message
-            Transport.send(message);
-            System.out.println("message sent successfully....");
+        Message message = new MimeMessage(session);
+        message.setFrom(new InternetAddress(from));
+        message.setRecipients(
+                Message.RecipientType.TO, InternetAddress.parse(to));
+        message.setSubject("Mail Subject");
 
-        } catch (MessagingException mex) {
-            mex.printStackTrace();
-        }
+        String msg = "This is my first email using JavaMailer";
+
+        MimeBodyPart mimeBodyPart = new MimeBodyPart();
+        mimeBodyPart.setContent(msg, "text/html");
+
+        Multipart multipart = new MimeMultipart();
+        multipart.addBodyPart(mimeBodyPart);
+
+        message.setContent(multipart);
+
+        Transport.send(message);
     }
 }

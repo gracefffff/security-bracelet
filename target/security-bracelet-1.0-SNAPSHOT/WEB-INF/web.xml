@@ -25,12 +25,23 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>signup</servlet-name>
-        <servlet-class>school.project.securitybracelet.web.servlets.SignUpController</servlet-class>
-    </servlet>
+    <servlet-name>signup</servlet-name>
+    <servlet-class>school.project.securitybracelet.web.servlets.SignUpController</servlet-class>
+</servlet>
 
     <servlet-mapping>
         <servlet-name>signup</servlet-name>
         <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>createPatient</servlet-name>
+        <servlet-class>school.project.securitybracelet.web.servlets.CreatePatientController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>createPatient</servlet-name>
+        <url-pattern>/create</url-pattern>
     </servlet-mapping>
 </web-app>

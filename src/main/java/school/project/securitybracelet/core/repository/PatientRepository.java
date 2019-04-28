@@ -26,13 +26,9 @@ public class PatientRepository implements IPatientRepository {
         return patientHashMap.size();
     }
 
-    public void createPatient(String id,String firstName, String middleName, String lastName, int age, String address, String contactNumber,
-                              String diseaseDescription, String firstAidDescription, String additionalInformation) {
-        // TODO: remove System.out.println()
-//        String id = UUID.randomUUID().toString();
+    public void createPatient(String id, Patient patient) {
         System.out.println(id);
-        patientHashMap.put(id, new Patient(firstName, middleName, lastName, age, address, contactNumber,
-                diseaseDescription, firstAidDescription, additionalInformation));
+        patientHashMap.put(id, patient);
     }
 
     public Patient getPatient(String id) {

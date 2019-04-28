@@ -1,8 +1,10 @@
 package school.project.securitybracelet.web.servlets;
 
+import com.google.zxing.WriterException;
 import school.project.securitybracelet.core.model.User;
 import school.project.securitybracelet.core.repository.IUserRepository;
 import school.project.securitybracelet.core.repository.UserRepository;
+import school.project.securitybracelet.web.service.QRCodeGenerator;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,7 +17,7 @@ public class SignUpController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/login.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/signup.jsp");
         requestDispatcher.forward(request, response);
     }
 
@@ -39,9 +41,10 @@ public class SignUpController extends HttpServlet {
                 passportId
         );
 
+        System.out.println(newUser.toString());
         userRepository.createNewUser(newUser);
 
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/singup.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("index.html");
         requestDispatcher.forward(request, response);
     }
 }

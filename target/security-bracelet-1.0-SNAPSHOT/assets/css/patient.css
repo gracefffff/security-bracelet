@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.main {
+    height: 2170px;
+    width: 627px;
+    box-shadow: 0 0 25px rgba(112, 201, 47, 0.66);;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.list__item {
+    margin-top: 40px;
+
+}
+
+.item {
+    height: 100px;
+    /*background:#70c92f;*/
+    box-shadow: 0 0 25px rgba(112, 201, 47, 0.66);
+}
+
+.main__list {
+    list-style: none;
+    width: 80%;
+}
+
+.item__tittle {
+
+}
+
+.required_title {
+    font-size: 13px;
+}
+
+.link, .main__form-title {
+    color: #262e73;
+}
+
+.main__header {
+    height: 240px;
+    width: 627px;
+    background: url("../images/patient_bg.jpg") no-repeat;
+
+}
+
+.main__header_title {
+    margin-left: 30px;
+
+    padding-top: 30px;
+}
+
+.main__title {
+    color: #70c92f;
+    font-size: 33px;
+    line-height: 20px;
+    text-shadow: black 0 0 5px;
+    margin-left: 20px;
+    font-weight: bold;
+
+    padding: 0;
+}
+
+.main__form_box-input {
+    height: 37px;
+    width: 347px;
+    display: block;
+    font-size: 17px;
+    line-height: 11px;
+    color: #282828;
+    margin-top: 10px;
+    margin-bottom: 21px;
+
+}
+
+.main__form-title, .main__form-gender {
+    display: block;
+}
+
+.main__form-title {
+    font-size: 14px;
+    line-height: 7px;
+    margin-top: 10px;
+}
+
+.main__form {
+    margin-left: 20%;
+
+    margin-top: 10px;
+
+}
+
+.main__form-gender {
+    margin-left: -4px;
+    margin-top: 14px;
+    color: #282828;
+    font-size: 17px;
+    line-height: 11px;
+    margin-bottom: 25px;
+}
+
+.main__form_gender-box {
+    margin-left: 14px;
+}
+
+.main__form_text-accept {
+    font-size: 12px;
+    color: #565d69;
+    line-height: 12px;
+    display: flex;
+
+}
+
+input {
+    font-family: 'PT Sans', sans-serif;
+    padding-left: 19px;
+}
+
+.main__form_box-accept {
+    margin-top: 3px;
+    margin-left: 0;
+    width: 15px;
+    height: 15px;
+
+}
+
+.main__button {
+    margin-top: 5px;
+    width: 371px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #70c92f;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 5px;
+
+    display: block;
+    cursor: pointer;
+}
+
+.main__button[disabled] {
+    opacity: .6;
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.main__form_text-accept-style {
+    width: 347px;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.main__button_text {
+    padding-left: 112px;
+    padding-top: 18px;
+}

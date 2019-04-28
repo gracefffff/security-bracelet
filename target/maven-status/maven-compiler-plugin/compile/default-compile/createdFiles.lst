@@ -1,10 +1,8 @@
 school/project/securitybracelet/core/repository/IUserRepository.class
-school/project/securitybracelet/servlets/PatientController.class
-school/project/securitybracelet/core/repository/IPatientRepository.class
 school/project/securitybracelet/core/model/Patient.class
+school/project/securitybracelet/core/repository/IPatientRepository.class
 school/project/securitybracelet/core/repository/UserRepository.class
-school/project/securitybracelet/servlets/LoginController.class
 school/project/securitybracelet/core/repository/PatientRepository.class
 school/project/securitybracelet/core/model/User.class
 school/project/securitybracelet/config/StartUpConfig.class
-school/project/securitybracelet/servlets/SignUpController.class
+school/project/securitybracelet/web/servlets/LoginController.class

@@ -26,4 +26,12 @@ public class UserRepository implements IUserRepository {
     public User getUserByEmail(final String email) {
         return userHashMap.get(email);
     }
+
+    public User login(String email, String password) {
+        if (userHashMap.get(email).getPassword() == password) {
+            return userHashMap.get(email);
+        } else {
+            return null;
+        }
+    }
 }

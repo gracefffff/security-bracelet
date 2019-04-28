@@ -7,4 +7,6 @@ public interface IUserRepository {
     User createNewUser(User user);
 
     User getUserByEmail(final String email);
+
+    User login(final String email, final String password);
 }

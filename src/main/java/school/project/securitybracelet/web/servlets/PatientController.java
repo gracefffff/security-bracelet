@@ -31,11 +31,4 @@ public class PatientController extends HttpServlet {
             response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
         }
     }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        IPatientRepository patientRepository = PatientRepository.getInstance();
-
-
-    }
 }
