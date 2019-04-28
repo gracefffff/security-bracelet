@@ -7,78 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d2abe75-41bc-48ac-905b-91646ebb362e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_twilio_sdk_twilio_7_37_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/QRCodeGenerator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/left-arrow.svg" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/securitybracelet_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/securitybracelet_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/securitybracelet.iml" afterPath="$PROJECT_DIR$/securitybracelet.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/config/StartUpConfig.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/config/StartUpConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/IPatientRepository.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/IPatientRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/IUserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/IUserRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/PatientRepository.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/PatientRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/EmailSender.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/EmailSender.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/SignUpController.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/SignUpController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/patient.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/patient.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/signup.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/signup.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/config/StartUpConfig.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/config/StartUpConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/model/Patient.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/model/Patient.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/model/User.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/IPatientRepository.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/IPatientRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/IUserRepository.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/IUserRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/PatientRepository.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/PatientRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/UserRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/service/EmailSender.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/service/EmailSender.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/PatientController.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/PatientController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/SignUpController.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/SignUpController.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT.war" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/config/StartUpConfig.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/config/StartUpConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/model/Patient.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/model/Patient.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/model/User.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/IPatientRepository.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/IPatientRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/IUserRepository.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/IUserRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/PatientRepository.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/PatientRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/UserRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/service/EmailSender.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/service/EmailSender.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/LoginController.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/PatientController.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/PatientController.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/SignUpController.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/SignUpController.class" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/assets/css/style.css" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/assets/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/index.html" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/views/login.jsp" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/views/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/views/signup.jsp" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/views/signup.jsp" />
+      <change beforePath="$PROJECT_DIR$/libs/commons-codec-1.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/twilio-7.34.1-jar-with-dependencies.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -144,8 +74,8 @@
       <file leaf-file-name="patient.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/patient.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="278">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -306,11 +236,6 @@
             <path>
               <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
               <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
@@ -610,7 +535,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="795" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -625,7 +549,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -738,6 +662,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -849,6 +774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,8 +951,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/patient.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="278">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
