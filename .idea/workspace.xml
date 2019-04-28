@@ -7,8 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d2abe75-41bc-48ac-905b-91646ebb362e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/libs/commons-codec-1.12.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/libs/twilio-7.34.1-jar-with-dependencies.jar" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/activation.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail_1_4_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libs/activation.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libs/javax.mail-1.4.4.jar" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/securitybracelet.iml" afterPath="$PROJECT_DIR$/securitybracelet.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/config/StartUpConfig.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/config/StartUpConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/model/Patient.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/model/Patient.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/EmailSender.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/EmailSender.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/QRCodeGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/QRCodeGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/CreatePatientController.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/CreatePatientController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/SignUpController.java" afterPath="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/SignUpController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/createPatient.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/createPatient.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/createPatient.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/createPatient.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/config/StartUpConfig.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/config/StartUpConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/model/Patient.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/model/Patient.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/core/repository/UserRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/service/EmailSender$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/service/EmailSender.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/service/EmailSender.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/service/QRCodeGenerator.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/service/QRCodeGenerator.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/CreatePatientController.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/CreatePatientController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/PatientController.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/PatientController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/SignUpController.class" afterPath="$PROJECT_DIR$/target/classes/school/project/securitybracelet/web/servlets/SignUpController.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/config/StartUpConfig.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/config/StartUpConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/model/Patient.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/model/Patient.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/core/repository/UserRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/service/EmailSender$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/service/EmailSender.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/service/EmailSender.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/service/QRCodeGenerator.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/service/QRCodeGenerator.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/CreatePatientController.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/CreatePatientController.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/LoginController.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/PatientController.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/PatientController.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/SignUpController.class" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/WEB-INF/classes/school/project/securitybracelet/web/servlets/SignUpController.class" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/index.html" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/views/createPatient.jsp" afterPath="$PROJECT_DIR$/target/security-bracelet-1.0-SNAPSHOT/views/createPatient.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,18 +63,18 @@
       <file leaf-file-name="CreatePatientController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/CreatePatientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="-301">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PatientController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java">
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="329">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,72 +83,85 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="173">
+              <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#button#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="patient.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/patient.jsp">
+      <file leaf-file-name="SmsSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/SmsSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="60" column="82" lean-forward="false" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
-              <folding />
+            <state relative-caret-position="222">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatientRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/PatientRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="patient.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/patient.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createPatient_script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/createPatient_script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ab1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/images/ab1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="patient_bg.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/images/patient_bg.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="createPatient.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/createPatient.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-201">
-              <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+            <state relative-caret-position="-545">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatientController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartUpConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/config/StartUpConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Patient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/model/Patient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+              <folding>
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createPatient.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/createPatient.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,8 +174,8 @@
       <list>
         <option value="HTML File" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -160,33 +212,35 @@
         <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/servlets/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/signup.css" />
         <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/IUserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/login.css" />
         <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/IPatientRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/PatientRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/EmailSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/config/StartUpConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/createPatient.css" />
-        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/SignUpController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/assets/css/createPatient.css" />
-        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/CreatePatientController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/SmsSender.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/button-back.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/images/left-arrow.svg" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/button-back.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/signup.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/createPatient.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/QRCodeGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/login.css" />
-        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/patient.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/patient.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/SignUpController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/model/Patient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/CreatePatientController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/config/StartUpConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/patient.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/EmailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/service/HashService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/QRCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/css/createPatient.css" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/createPatient.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/SmsSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java" />
       </list>
     </option>
   </component>
@@ -210,10 +264,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="height" value="795" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -240,6 +294,11 @@
             <path>
               <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
               <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,6 +321,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +347,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
@@ -304,32 +402,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="securitybracelet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="securitybracelet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,6 +432,8 @@
       <recent name="$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/webapp/views" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
@@ -534,7 +609,8 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="795" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="795" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -545,11 +621,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29285714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2557143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,7 +633,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5742857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18571429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -578,23 +654,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java</url>
-          <line>28</line>
+          <line>32</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/CreatePatientController.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/QRCodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -639,6 +719,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -720,28 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/model/Patient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="73" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/IUserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -756,28 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/EmailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/config/StartUpConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/SignUpController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -786,18 +823,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/SmsSender.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="1152" column="18" lean-forward="false" selection-start-line="1152" selection-start-column="18" selection-end-line="1152" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/createPatient.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -828,33 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="80" lean-forward="false" selection-start-line="17" selection-start-column="80" selection-end-line="17" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6345">
-          <caret line="423" column="0" lean-forward="false" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
-          <folding>
-            <marker date="1556375154763" expanded="true" signature="1410:1563" ph="..." />
-            <marker date="1556375154763" expanded="true" signature="1503:1531" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="60" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/QRCodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="52" lean-forward="false" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -901,14 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/createPatient.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/PatientRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -917,42 +911,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/CreatePatientController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/patient.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="249">
+          <caret line="420" column="46" lean-forward="false" selection-start-line="420" selection-start-column="46" selection-end-line="420" selection-end-column="68" />
+          <folding>
+            <marker date="1556433011871" expanded="true" signature="1410:1563" ph="..." />
+            <marker date="1556433011871" expanded="true" signature="1503:1531" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#879#880#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/SignUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/patient.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/EmailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/service/HashService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#556#557#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/QRCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/createPatient.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/core/model/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/createPatient.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="173">
+          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#button#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/CreatePatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/patient.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/config/StartUpConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="60" column="82" lean-forward="false" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
+        <state relative-caret-position="152">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/patient.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/service/SmsSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="222">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/school/project/securitybracelet/web/servlets/PatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
           <folding />
         </state>
       </provider>

@@ -2,6 +2,8 @@ package school.project.securitybracelet.web.servlets;
 
 import school.project.securitybracelet.core.repository.IUserRepository;
 import school.project.securitybracelet.core.repository.UserRepository;
+import school.project.securitybracelet.core.service.HashService;
+import school.project.securitybracelet.web.service.EmailSender;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -11,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class LoginController extends HttpServlet {
+    private HashService hashService = new HashService();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -31,7 +34,7 @@ public class LoginController extends HttpServlet {
             requestDispatcher.forward(request, response);
         }
 
-        if (userRepository.login(email, password) == null) {
+        if (userRepository.login(email, password) != null) {
 //            SmsSender smsSender = new SmsSender();
 //            smsSender.sendSMS();
 

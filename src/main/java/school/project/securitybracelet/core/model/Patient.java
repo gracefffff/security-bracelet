@@ -10,6 +10,11 @@ public class Patient {
     private String diseaseDescription;
     private String firstAidDescription;
     private String additionalInformation;
+    private String contactEmail;
+
+    public String getContactEmail() {
+        return contactEmail;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -47,8 +52,17 @@ public class Patient {
         return additionalInformation;
     }
 
-    public Patient(String firstName, String middleName, String lastName, int age, String address, String contactNumber,
-                   String diseaseDescription, String firstAidDescription, String additionalInformation) {
+    public Patient(
+            String firstName,
+            String middleName,
+            String lastName,
+            int age,
+            String address,
+            String contactNumber,
+            String diseaseDescription,
+            String firstAidDescription,
+            String additionalInformation,
+            String contactEmail) {
         this.firstName = firstName;
         this.middleName = middleName;
         this.lastName = lastName;
@@ -58,6 +72,7 @@ public class Patient {
         this.diseaseDescription = diseaseDescription;
         this.firstAidDescription = firstAidDescription;
         this.additionalInformation = additionalInformation;
+        this.contactEmail = contactEmail;
     }
 
     @Override

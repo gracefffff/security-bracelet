@@ -1,52 +1,54 @@
 package school.project.securitybracelet.web.service;
 
+import java.util.*;
 import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.*;
 import javax.mail.internet.MimeMessage;
-import javax.mail.internet.MimeMultipart;
-import java.util.Properties;
 
 public class EmailSender {
-    private String to = "mr.heylovskiy@gmail.com";
-    private String from = "mr.heylovskiy@yandex.ru";
-    private String host = "localhost";
+    private String host = "smtp.gmail.com";
+    private String user = "fffffecarg@gmail.com";
+    private String pass = "135secbraslet";
+    private String from = "fffffecarg@gmail.com";
+    private String subject = "DO NOT REPLY";
+    private String messageText = "Your page about %s %s was just opened. Please contact with %s and make sure that" +
+            "everything is alright. \n \n \n Sincerely, \n Your QRSecurity company";
+    private boolean sessionDebug = false;
+    private Properties props;
+
 
     public EmailSender() {
+        props = System.getProperties();
 
+        props.put("mail.smtp.starttls.enable", "true");
+        props.put("mail.smtp.host", host);
+        props.put("mail.smtp.port", "587");
+        props.put("mail.smtp.auth", "true");
+        props.put("mail.smtp.starttls.required", "true");
     }
 
-    public void sendEmail(final String username, final String password) throws MessagingException {
-        Properties prop = new Properties();
-        prop.put("mail.smtp.auth", true);
-        prop.put("mail.smtp.starttls.enable", "true");
-        prop.put("mail.smtp.host", "smtp.mailtrap.io");
-        prop.put("mail.smtp.port", "25");
-        prop.put("mail.smtp.ssl.trust", "smtp.mailtrap.io");
+    public void sendEmail(String email, String firstName, String lastName) {
+        try {
+            this.messageText = String.format(this.messageText, firstName, lastName, firstName);
 
-        Session session = Session.getInstance(prop, new Authenticator() {
-            @Override
-            protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(username, password);
-            }
-        });
+            java.security.Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
+            Session mailSession = Session.getDefaultInstance(props, null);
+            mailSession.setDebug(sessionDebug);
+            Message msg = new MimeMessage(mailSession);
+            msg.setFrom(new InternetAddress(from));
+            InternetAddress[] address = {new InternetAddress(email)};
+            msg.setRecipients(Message.RecipientType.TO, address);
+            msg.setSubject(subject);
+            msg.setSentDate(new Date());
+            msg.setText(messageText);
 
-        Message message = new MimeMessage(session);
-        message.setFrom(new InternetAddress(from));
-        message.setRecipients(
-                Message.RecipientType.TO, InternetAddress.parse(to));
-        message.setSubject("Mail Subject");
-
-        String msg = "This is my first email using JavaMailer";
-
-        MimeBodyPart mimeBodyPart = new MimeBodyPart();
-        mimeBodyPart.setContent(msg, "text/html");
-
-        Multipart multipart = new MimeMultipart();
-        multipart.addBodyPart(mimeBodyPart);
-
-        message.setContent(multipart);
-
-        Transport.send(message);
+            Transport transport = mailSession.getTransport("smtp");
+            transport.connect(host, user, pass);
+            transport.sendMessage(msg, msg.getAllRecipients());
+            transport.close();
+            System.out.println("message send successfully");
+        } catch (Exception ex) {
+            System.out.println(ex);
+        }
     }
 }

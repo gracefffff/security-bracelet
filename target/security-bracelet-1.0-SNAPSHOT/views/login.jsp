@@ -34,7 +34,10 @@
                    name="password">
         </label>
 
-        <button tabindex="3" class="main__button" type="submit" name="submit" id="submit" disabled>Log in</button>
+        <button tabindex="3" class="main__button" type="submit" name="submit" id="submit" disabled><a
+                style="text-decoration: none" href="/create">Log
+            in</a>
+        </button>
         <div class="signup_block">
             <p class="signup_invintation">Don't have an account?</p>
             <a class="signup_link" href="/signup">Sign up</a>

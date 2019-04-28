@@ -38,6 +38,7 @@ public class CreatePatientController extends HttpServlet {
         String diseaseDescription = request.getParameter("diseaseDescription");
         String firstAidDescription = request.getParameter("firstAidDescription");
         String additionalInformation = request.getParameter("additionalInformation");
+        String email = request.getParameter("contactEmail");
 
 
         Patient patient = new Patient(
@@ -49,12 +50,13 @@ public class CreatePatientController extends HttpServlet {
                 contactNumber,
                 diseaseDescription,
                 firstAidDescription,
-                additionalInformation
+                additionalInformation,
+                email
         );
 
         String id = UUID.randomUUID().toString();
 
-        System.out.println("id = "+ id);
+        System.out.println("id = " + id);
         repository.createPatient(
                 id,
                 patient);

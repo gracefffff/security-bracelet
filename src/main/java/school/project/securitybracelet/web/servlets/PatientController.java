@@ -4,6 +4,7 @@ import school.project.securitybracelet.core.model.Patient;
 import school.project.securitybracelet.core.repository.IPatientRepository;
 import school.project.securitybracelet.core.repository.PatientRepository;
 import school.project.securitybracelet.web.service.EmailSender;
+import school.project.securitybracelet.web.service.SmsSender;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -22,8 +23,11 @@ public class PatientController extends HttpServlet {
             Patient patient = patientRepository.getPatient(id);
             request.setAttribute("patient", patient);
 
-//            EmailSender emailSender = new EmailSender();
-//            emailSender.sendEmail();
+            EmailSender emailSender = new EmailSender();
+            emailSender.sendEmail(patient.getContactEmail(), patient.getFirstName(), patient.getLastName());
+
+//            SmsSender smsSender = new SmsSender();
+//            smsSender.sendSms();
 
             RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/patient.jsp");
             requestDispatcher.forward(request, response);

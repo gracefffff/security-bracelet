@@ -1,15 +1,18 @@
 package school.project.securitybracelet.core.repository;
 
 import school.project.securitybracelet.core.model.User;
+import school.project.securitybracelet.core.service.HashService;
 
 import java.util.HashMap;
 
 public class UserRepository implements IUserRepository {
+    private HashService hashService;
     private HashMap<String, User> userHashMap;
     private static UserRepository instance;
 
     private UserRepository() {
         userHashMap = new HashMap<String, User>();
+        hashService = new HashService();
     }
 
     public static UserRepository getInstance() {
@@ -28,7 +31,7 @@ public class UserRepository implements IUserRepository {
     }
 
     public User login(String email, String password) {
-        if (userHashMap.get(email).getPassword() == password) {
+        if (hashService.match(userHashMap.get(email).getPassword(), password)) {
             return userHashMap.get(email);
         } else {
             return null;

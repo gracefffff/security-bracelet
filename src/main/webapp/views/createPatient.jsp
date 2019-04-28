@@ -10,7 +10,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Create a record</title>
     <link rel="stylesheet" href="../assets/css/createPatient.css">
     <link rel="stylesheet" href="../assets/css/button-back.css">
     <script src="../assets/js/createPatient_script.js"></script>
@@ -49,6 +49,10 @@
             <input tabindex="10" class="main__form_box-input" id="number" type="text" required onkeyup='checkParams()'
                    name="contactNumber">
         </label>
+        <label class="main__form-title"> Contact email of relatives *
+            <input tabindex="10" class="main__form_box-input" id="email" type="text" required onkeyup='checkParams()'
+                   name="contactEmail">
+        </label>
         <label class="main__form-title"> Disease Description
             <input tabindex="11" class="main__form_box-input" id="disease" type="text" onkeyup='checkParams()'
                    name="diseaseDescription">
@@ -65,7 +69,8 @@
 
 
         <button tabindex="10" class="main__button" type="submit" name="submit" id="submit"
-               disabled>Add to patient table</button>
+                disabled>Add to patient table
+        </button>
 
     </form>
 </div>

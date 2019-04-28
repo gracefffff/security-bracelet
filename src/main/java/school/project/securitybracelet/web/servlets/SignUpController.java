@@ -1,10 +1,9 @@
 package school.project.securitybracelet.web.servlets;
 
-import com.google.zxing.WriterException;
 import school.project.securitybracelet.core.model.User;
 import school.project.securitybracelet.core.repository.IUserRepository;
 import school.project.securitybracelet.core.repository.UserRepository;
-import school.project.securitybracelet.web.service.QRCodeGenerator;
+import school.project.securitybracelet.core.service.HashService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -14,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class SignUpController extends HttpServlet {
+    private HashService hashService = new HashService();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -32,16 +32,18 @@ public class SignUpController extends HttpServlet {
         String email = request.getParameter("email");
         String password = request.getParameter("password");
 
+        String hashPass = hashService.generateHash(password);
+        System.out.println(hashPass);
+
         User newUser = new User(
                 firstName,
                 lastName,
                 email,
-                password,
+                hashPass,
                 true,
                 passportId
         );
 
-        System.out.println(newUser.toString());
         userRepository.createNewUser(newUser);
 
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("index.html");

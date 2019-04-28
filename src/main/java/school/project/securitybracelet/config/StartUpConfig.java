@@ -23,14 +23,28 @@ public class StartUpConfig implements ServletContextListener {
                         "Test contact",
                         "Test disease",
                         "Test first aid",
-                        "Test additional information"));
+                        "Test additional information",
+                        "mr.heylovskiy@gmail.com"));
+
+        patientRepository.createPatient(
+                "805082c4-698e-11e9-a923-1681be663d3e",
+                new Patient("Gleb",
+                        "V",
+                        "Kheilovskii",
+                        21,
+                        "Svetlaya street, Omsk",
+                        "+79039276656",
+                        "No disease",
+                        "Make him smile",
+                        "Sometimes can be upset",
+                        "mr.heylovskiy@gmail.com"));
 
         userRepository.createNewUser(
                 new User(
                         null,
                         null,
                         "admin@admin.com",
-                        "admin",
+                        "21232F297A57A5A743894A0E4A801FC3",
                         true, null));
     }
 
